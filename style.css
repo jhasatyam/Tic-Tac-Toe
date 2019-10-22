@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(231, 173, 193);
+}
+h1{
+  color: rgb(36, 36, 143);
+  font-family:  "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+p{
+  color: rgb(204, 0, 0);
+  font-size:  20px;
+}
+td {
+	border:  2px solid ;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+}
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+    margin-left: -175px;
+    margin-top: 30px;
+}
+table tr:first-child td {
+	border-top: 0;
+}
+table tr:last-child td {
+	border-bottom: 0;
+}
+table tr td:first-child {
+	border-left: 0;
+}
+table tr td:last-child {
+	border-right: 0;
+}
